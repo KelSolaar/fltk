@@ -736,7 +736,7 @@ if test x$enable_localpng != xyes; then
     [AC_CHECK_HEADER(png.h,
 	AC_DEFINE(HAVE_PNG_H)
 	syspnginc_ok=yes)
-    AC_CHECK_HEADER(libpng/png.h,
+    AC_CHECK_HEADER(libpng16/png.h,
 	AC_DEFINE(HAVE_LIBPNG_PNG_H)
 	syspnginc_ok=yes)
     if test x$syspnginc_ok = xyes; then

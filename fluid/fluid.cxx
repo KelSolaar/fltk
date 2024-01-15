@@ -78,7 +78,7 @@ extern "C"
 #  ifdef HAVE_PNG_H
 #    include <png.h>
 #  else
-#    include <libpng/png.h>
+#    include <libpng16/png.h>
 #  endif // HAVE_PNG_H
 #endif // HAVE_LIBPNG && HAVE_LIBZ
 }
